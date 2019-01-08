@@ -1,4 +1,4 @@
-# Internet VPC
+# AWS Nonprod VPC
 resource "aws_vpc" "vinnie" {
     cidr_block = "11.0.0.0/16"
     instance_tenancy = "default"
